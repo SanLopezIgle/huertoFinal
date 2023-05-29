@@ -130,10 +130,10 @@ public class HuertoCatalogoIU extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel etqOpcion;
-    private javax.swing.JLabel etqTitulo;
-    private javax.swing.JPanel jPanel1;
+    public javax.swing.JLabel etqOpcion;
+    public javax.swing.JLabel etqTitulo;
+    public javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
+    public javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }

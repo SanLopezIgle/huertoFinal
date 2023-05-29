@@ -202,19 +202,19 @@ public class HuertoPersonalizadoIU extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton bCancelar;
-    private javax.swing.JButton bComprar;
-    private javax.swing.JComboBox<String> comboLechuga;
-    private javax.swing.JComboBox<String> comboMango;
-    private javax.swing.JComboBox<String> comboTomate;
-    private javax.swing.JComboBox<String> comboZanahoria;
-    private javax.swing.JLabel etqOpcion;
-    private javax.swing.JLabel etqTitulo;
-    private javax.swing.JPanel jPanel1;
+    public javax.swing.JButton bCancelar;
+    public javax.swing.JButton bComprar;
+    public javax.swing.JComboBox<String> comboLechuga;
+    public javax.swing.JComboBox<String> comboMango;
+    public javax.swing.JComboBox<String> comboTomate;
+    public javax.swing.JComboBox<String> comboZanahoria;
+    public javax.swing.JLabel etqOpcion;
+    public javax.swing.JLabel etqTitulo;
+    public javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JRadioButton rbLechuga;
-    private javax.swing.JRadioButton rbMango;
-    private javax.swing.JRadioButton rbTomate;
-    private javax.swing.JRadioButton rbZanahoria;
+    public javax.swing.JRadioButton rbLechuga;
+    public javax.swing.JRadioButton rbMango;
+    public javax.swing.JRadioButton rbTomate;
+    public javax.swing.JRadioButton rbZanahoria;
     // End of variables declaration//GEN-END:variables
 }

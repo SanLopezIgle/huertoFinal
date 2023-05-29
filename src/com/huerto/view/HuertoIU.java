@@ -130,10 +130,10 @@ public class HuertoIU extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton bHuertoExistente;
-    private javax.swing.JButton bHuertoNuevo;
-    private javax.swing.JLabel etqPregunta;
-    private javax.swing.JLabel etqTitulo;
+    public javax.swing.JButton bHuertoExistente;
+    public javax.swing.JButton bHuertoNuevo;
+    public javax.swing.JLabel etqPregunta;
+    public javax.swing.JLabel etqTitulo;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

@@ -39,7 +39,8 @@ public class HuertoPersonalizadoIU extends javax.swing.JFrame {
         comboMango = new javax.swing.JComboBox<>();
         jPanel2 = new javax.swing.JPanel();
         bComprar = new javax.swing.JButton();
-        bCancelar = new javax.swing.JButton();
+        bAtras = new javax.swing.JButton();
+        bSalir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -125,25 +126,30 @@ public class HuertoPersonalizadoIU extends javax.swing.JFrame {
 
         bComprar.setText("COMPRAR");
 
-        bCancelar.setText("CANCELAR");
+        bAtras.setText("ATRÁS");
+
+        bSalir.setText("SALIR");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(82, 82, 82)
+                .addGap(33, 33, 33)
                 .addComponent(bComprar)
+                .addGap(56, 56, 56)
+                .addComponent(bAtras)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(bCancelar)
-                .addGap(76, 76, 76))
+                .addComponent(bSalir)
+                .addGap(61, 61, 61))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(bComprar)
-                    .addComponent(bCancelar))
+                    .addComponent(bAtras)
+                    .addComponent(bSalir))
                 .addGap(0, 28, Short.MAX_VALUE))
         );
 
@@ -202,8 +208,9 @@ public class HuertoPersonalizadoIU extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton bCancelar;
+    public javax.swing.JButton bAtras;
     public javax.swing.JButton bComprar;
+    public javax.swing.JButton bSalir;
     public javax.swing.JComboBox<String> comboLechuga;
     public javax.swing.JComboBox<String> comboMango;
     public javax.swing.JComboBox<String> comboTomate;

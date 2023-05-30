@@ -1,15 +1,17 @@
 package com.huerto.model;
 
+import java.util.ArrayList;
+
 public class Huerto {
     // Atributos huerto
     private Integer idHuerto;
-    private Planta planta;
+    private ArrayList<Planta> planta;
 
     // Constructores huerto
     public Huerto(Integer idHuerto){
         this.idHuerto = idHuerto;
     }
-    public Huerto(Integer idHuerto, Planta planta) {
+    public Huerto(Integer idHuerto, ArrayList<Planta> planta) {
         this.idHuerto = idHuerto;
         this.planta = planta;
     }
@@ -24,11 +26,11 @@ public class Huerto {
         this.idHuerto = idHuerto;
     }
 
-    public Planta getPlanta() {
+    public ArrayList<Planta> getPlanta() {
         return planta;
     }
 
-    public void setPlanta(Planta planta) {
+    public void setPlanta(ArrayList<Planta> planta) {
         this.planta = planta;
     }
 }

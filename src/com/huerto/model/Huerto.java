@@ -3,15 +3,15 @@ package com.huerto.model;
 public class Huerto {
     // Atributos huerto
     private Integer idHuerto;
-    private String estado;
+    private Planta planta;
 
     // Constructores huerto
-    public Huerto(){
-
-    }
-    public Huerto(Integer idHuerto, String estado) {
+    public Huerto(Integer idHuerto){
         this.idHuerto = idHuerto;
-        this.estado = estado;
+    }
+    public Huerto(Integer idHuerto, Planta planta) {
+        this.idHuerto = idHuerto;
+        this.planta = planta;
     }
 
     // Getters y setters huerto
@@ -24,11 +24,11 @@ public class Huerto {
         this.idHuerto = idHuerto;
     }
 
-    public String getEstado() {
-        return estado;
+    public Planta getPlanta() {
+        return planta;
     }
 
-    public void setEstado(String estado) {
-        this.estado = estado;
+    public void setPlanta(Planta planta) {
+        this.planta = planta;
     }
 }

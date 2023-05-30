@@ -139,7 +139,7 @@ public class HuertoIU extends javax.swing.JFrame {
 
     /**
      * Método que devuelve la referencia al boton bHuertoExistente
-     * @return botón de huerto existente
+     * @return botón de huerto existente en la base de datos
      */
     public javax.swing.JButton getbHuertoExistente(){
         return bHuertoExistente;

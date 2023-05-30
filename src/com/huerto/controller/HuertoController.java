@@ -13,7 +13,7 @@ public class HuertoController {
         this.catalogoIU = catalogoIU;
         this.personalizadoIU = personalizadoIU;
 
-        // Asignmos los controladores a los botones
+        // Asignamos los controladores a los botones
         principal.getbHuertoExistente().addActionListener(e -> abrirHuertoCatalogoUI());
         principal.getbHuertoNuevo().addActionListener(e -> abrirHuertoPersonalizadoUI());
     }

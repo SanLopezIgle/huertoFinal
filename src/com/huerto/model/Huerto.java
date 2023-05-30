@@ -15,19 +15,15 @@ public class Huerto {
     }
 
     // Getters y setters huerto
-
     public Integer getIdHuerto() {
         return idHuerto;
     }
-
     public void setIdHuerto(Integer idHuerto) {
         this.idHuerto = idHuerto;
     }
-
     public String getEstado() {
         return estado;
     }
-
     public void setEstado(String estado) {
         this.estado = estado;
     }

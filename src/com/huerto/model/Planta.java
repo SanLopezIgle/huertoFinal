@@ -5,10 +5,8 @@ public class Planta {
     public enum Especie{
         TOMATE, LECHUGA, MANGO, ZANAHORIA;
     }
-
     // Atributo planta
     private Especie especie;
-
     // Constructores planta
     public Planta(){
 
@@ -16,12 +14,10 @@ public class Planta {
     public Planta(Especie especie){
         this.especie = especie;
     }
-
     // Getters y setters planta
     public Especie getEspecie() {
         return especie;
     }
-
     public void setEspecie(Especie especie) {
         this.especie = especie;
     }

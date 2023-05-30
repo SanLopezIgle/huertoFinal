@@ -136,4 +136,19 @@ public class HuertoIU extends javax.swing.JFrame {
     private javax.swing.JLabel etqTitulo;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+
+    /**
+     * Método que devuelve la referencia al boton bHuertoExistente
+     * @return botón de huerto existente
+     */
+    public javax.swing.JButton getbHuertoExistente(){
+        return bHuertoExistente;
+    }
+    /**
+     * Método que devuelve la referencia al boton bHuertoNuevo
+     * @return botón de huerto nuevo
+     */
+    public javax.swing.JButton getbHuertoNuevo(){
+        return bHuertoNuevo;
+    }
 }
